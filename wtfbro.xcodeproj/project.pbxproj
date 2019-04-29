@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1D21E9452273ADE300BE5254 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D21E9442273ADE300BE5254 /* main.cpp */; };
+		1D21E94E2273B04900BE5254 /* md5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D21E94C2273B04900BE5254 /* md5.cpp */; };
+		1D21E9522273DA7800BE5254 /* sadfg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D21E9502273DA7800BE5254 /* sadfg.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,12 @@
 /* Begin PBXFileReference section */
 		1D21E9412273ADE300BE5254 /* wtfbro */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = wtfbro; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D21E9442273ADE300BE5254 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1D21E94B2273AF3800BE5254 /* md5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		1D21E94C2273B04900BE5254 /* md5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = md5.cpp; sourceTree = "<group>"; };
+		1D21E94D2273B04900BE5254 /* md5.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = md5.hpp; sourceTree = "<group>"; };
+		1D21E94F2273C23900BE5254 /* ThreadPool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ThreadPool.h; path = "../../../Downloads/ThreadPool-master/ThreadPool.h"; sourceTree = "<group>"; };
+		1D21E9502273DA7800BE5254 /* sadfg.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sadfg.cpp; sourceTree = "<group>"; };
+		1D21E9512273DA7800BE5254 /* sadfg.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = sadfg.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,12 @@
 			isa = PBXGroup;
 			children = (
 				1D21E9442273ADE300BE5254 /* main.cpp */,
+				1D21E94F2273C23900BE5254 /* ThreadPool.h */,
+				1D21E94B2273AF3800BE5254 /* md5.h */,
+				1D21E94C2273B04900BE5254 /* md5.cpp */,
+				1D21E94D2273B04900BE5254 /* md5.hpp */,
+				1D21E9502273DA7800BE5254 /* sadfg.cpp */,
+				1D21E9512273DA7800BE5254 /* sadfg.hpp */,
 			);
 			path = wtfbro;
 			sourceTree = "<group>";
@@ -118,7 +132,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D21E94E2273B04900BE5254 /* md5.cpp in Sources */,
 				1D21E9452273ADE300BE5254 /* main.cpp in Sources */,
+				1D21E9522273DA7800BE5254 /* sadfg.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
